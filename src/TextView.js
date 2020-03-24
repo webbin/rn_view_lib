@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-03-24 10:14:53
- * @LastEditTime: 2020-03-24 10:18:10
+ * @LastEditTime: 2020-03-24 10:40:07
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /rn_view_lib/src/TextView.js
@@ -22,7 +22,7 @@ export default class TextView extends Component {
         style={{
           marginVertical: 20,
         }}>
-        <Text> TextView </Text>
+        <Text style={{fontSize: 20, color: 'black'}}> TextView </Text>
       </View>
     );
   }
